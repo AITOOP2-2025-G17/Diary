@@ -1,4 +1,5 @@
 from diaries.DiarySample import DiarySample
+from diaries.takuDiary import takuDiary
 from diaries.OkazawaDiary import OkazawaDiary
 from diaries.sunsunDiary import sunsunDiary
 
@@ -6,8 +7,8 @@ from diaries.sunsunDiary import sunsunDiary
 diaries = [
     DiarySample(),
     sunsunDiary(),
+    takuDiary(),
     OkazawaDiary(),
- main
 ]
 
 for d in diaries:
